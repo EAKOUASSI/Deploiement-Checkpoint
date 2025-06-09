@@ -1,6 +1,5 @@
 # Deploiement-Checkpoint ToDo-list sur Vercel
 
-Ce que vous visez
 
 Point de contrôle : Hébergement d'une application MERN sur Microsoft Azure(Vercel)
 
