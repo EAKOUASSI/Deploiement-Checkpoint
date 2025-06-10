@@ -3,8 +3,9 @@
 
 Point de contrôle : Hébergement d'une application MERN sur Microsoft Azure(Vercel)
 
-Objectif : déployer une application de pile MERN sur la plateforme cloud Microsoft Azure(Vercel).
+Objectif : déployer une application de pile MERN sur la plateforme cloud Microsoft Azure(Vercel):
 
+# https://go-my-task.vercel.app/
 
 Instructions
 
