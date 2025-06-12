@@ -136,14 +136,14 @@ h1 {
 }
 
 .task-list::-webkit-scrollbar-thumb {
-  background-color: #4361ee; /* couleur par défaut */
+  background-color: var(--primary-color); /* couleur par défaut */
   border-radius: 5px;
   transition: background-color 0.2s ease;
 }
 
 /* Lorsqu'on clique et glisse (active) */
 .task-list::-webkit-scrollbar-thumb:active {
-  background-color: #4cc9f0; /* couleur lors du glissement */
+  background-color: var(--success-color); /* couleur lors du glissement */
 }
 
 /* Curseur main simulé sur la zone du scrollbar */
