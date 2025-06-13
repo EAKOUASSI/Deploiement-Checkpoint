@@ -1,5 +1,7 @@
 const API_BASE_URL =
-  process.env.NODE_ENV === "development" ? "http://localhost:5000" : ""; // Vercel utilisera le même domaine
+  process.env.NODE_ENV === "development"
+    ? "http://localhost:5000"
+    : "https://ton-projet.vercel.app"; // ← ton lien Vercel
 
 const TASKS_API = `${API_BASE_URL}/api/tasks`;
 

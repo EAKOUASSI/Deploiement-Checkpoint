@@ -1,5 +1,5 @@
-import { connectToDatabase } from "@/lib/db";
-import Task from "@/models/Task";
+import { connectToDatabase } from "../../lib/db.js";
+import Task from "../../models/Task.js";
 
 export default async function handler(req, res) {
   await connectToDatabase();
