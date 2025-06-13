@@ -1,8 +1,8 @@
-import dbConnect from "../../lib/db";
-import Task from "../../models/Task";
+import { connectToDatabase } from "../../lib/db.js";
+import Task from "../../models/Task.js";
 
 export default async function handler(req, res) {
-  await dbConnect();
+  await connectToDatabase();
 
   if (req.method === "GET") {
     const tasks = await Task.find();

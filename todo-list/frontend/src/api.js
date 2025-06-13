@@ -1,7 +1,7 @@
 const API_BASE_URL =
-  process.env.NODE_ENV === "development"
+  import.meta.env.MODE === "development"
     ? "http://localhost:5000"
-    : "https://ton-projet.vercel.app"; // ← ton lien Vercel
+    : "https://go-my-task.vercel.app";
 
 const TASKS_API = `${API_BASE_URL}/api/tasks`;
 
