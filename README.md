@@ -21,7 +21,7 @@ Deplus nous avons déployé l'application sur Vercel car gratuit contrairement �
 Le projet fonctione comme suit:
 L'individu à accès à l'application en ligne via Vercel et peut ajouter, modifier ou supprimer une tâche qu'il souhaite effectuer.
 Ces tâches sont enregistrés dans MongoDb atlas sur notre server (cluster) "eakkouassi"
-Nous n'avons malheuresement pas pû déployer le backend sur Vercel après maintes tentatives,il faudra donc "pull" l'application et démarrer l'application localement à fin de pouvoir la tester (voir les tâches ajouter).
+Nous n'avons malheuresement pas pû déployer le backend sur Vercel après maintes tentatives (d'où l'ajout des dossiers annexes: "api";"libs";"models"),il faudra donc "pull" l'application et démarrer l'application localement à fin de pouvoir la tester (voir les tâches ajouter).
  
 Accédez à votre application MERN déployée via l’URL fournie par Vercel.
 Testez toutes les fonctionnalités pour garantir un déploiement et une connectivité de base de données appropriés.
